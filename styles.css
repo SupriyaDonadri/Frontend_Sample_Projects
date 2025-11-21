@@ -1,0 +1,15 @@
+form {
+  background-color: aqua !important;
+}
+
+.input {
+  background-color: aqua !important;
+}
+
+#date {
+  background-color: lightgreen;
+}
+
+#submit {
+  background-color: red;
+}

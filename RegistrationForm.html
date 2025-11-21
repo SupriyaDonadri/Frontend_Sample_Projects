@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      form {
+        background-color: palevioletred;
+        padding: 20px;
+      }
+      h2 {
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <form style="background-color: bisque !important">
+      <table>
+        <tr>
+          <th colspan="2"><h2>Student Registration Form</h2></th>
+        </tr>
+        <tr>
+          <th><label>Roll No.:</label></th>
+          <td>
+            <input "text" class="input" style="background-color: blueviolet;";
+            />
+          </td>
+        </tr>
+        <tr>
+          <th><label>Student Name:</label></th>
+          <td>
+            <input class="input" type="text" placeholder="First Name" />
+            <input class="input" type="text" placeholder="Last Name" />
+          </td>
+        </tr>
+        <tr>
+          <th><label>Father's Name:</label></th>
+          <td><input class="input" type="text" /></td>
+        </tr>
+        <tr>
+          <th><label>Date of Birth:</label></th>
+          <td><input id="date" type="date" /><span>(DD-MM-YYYY)</span></td>
+        </tr>
+        <tr>
+          <th><label>Mobile No.:</label></th>
+          <td>
+            <input class="input" type="text" placeholder="+91" />
+            <input class="input" type="text" />
+          </td>
+        </tr>
+        <tr>
+          <th><label>Email ID:</label></th>
+          <td><input class="input" type="email" /></td>
+        </tr>
+        <tr>
+          <th><label>Password:</label></th>
+          <td><input class="input" type="password" /></td>
+        </tr>
+        <tr>
+          <th>Gender:</th>
+          <td>
+            <input type="radio" name="gender" />
+            <label>Male</label>
+            <input type="radio" name="gender" />
+            <label>Female</label>
+          </td>
+        </tr>
+        <tr>
+          <th>Department:</th>
+          <td>
+            <label><input type="checkbox" value="CSE" />CSE</label>
+            <label><input type="checkbox" value="IT" /> IT</label>
+            <label><input type="checkbox" value="ECE" />ECE</label>
+            <label><input type="checkbox" value="Civil" />Civil</label>
+            <label><input type="checkbox" value="Mech" />Mech</label>
+          </td>
+        </tr>
+        <tr>
+          <th><label>Course:</label></th>
+          <td>
+            <select>
+              <option>-- Select Current Course --</option>
+              <option>B.Tech</option>
+              <option>M.Tech</option>
+              <option>MBA</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th><label>Student Photo:</label></th>
+          <td><input type="file" /></td>
+        </tr>
+        <tr>
+          <th><label>City:</label></th>
+          <td><input class="input" type="text" /></td>
+        </tr>
+        <tr>
+          <th><label>Address:</label></th>
+          <td>
+            <textarea class="input" rows="4" cols="50"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align: center">
+            <button type="submit">Register</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
