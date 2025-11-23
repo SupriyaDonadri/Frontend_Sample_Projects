@@ -1,15 +1,39 @@
-form {
-  background-color: aqua !important;
-}
-
 .input {
-  background-color: aqua !important;
+  background-color: bisque !important;
 }
 
 #date {
-  background-color: lightgreen;
+  background-color: lightseagreen;
 }
 
-#submit {
-  background-color: red;
+#course {
+  background-color: lightblue;
+}
+
+#button {
+  background-color: goldenrod;
+}
+
+#radio {
+  background-color: goldenrod;
+}
+
+.green {
+  color: green;
+}
+
+#white {
+  background-color: white;
+}
+
+.font {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: 30px;
+}
+
+.letter {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  font-weight: 50px;
 }
