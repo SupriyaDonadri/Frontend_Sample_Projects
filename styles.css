@@ -37,3 +37,180 @@
   font-size: 50px;
   font-weight: 50px;
 }
+
+#parent1 {
+  background-color: #212121;
+  margin: auto;
+  width: 256px;
+  height: 256px;
+  position: relative;
+  /* Position properties below this line */
+
+  /* Position properties above this line */
+}
+
+#child-1 {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  background-color: #ff8a80;
+  top: 0;
+  right: 0;
+  /* Position properties below this line */
+
+  /* Position properties above this line */
+}
+
+#child-2 {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  background-color: #69f0ae;
+  left: 0;
+  bottom: 0;
+  /* Position properties below this line */
+
+  /* Position properties above this line */
+}
+
+#child-3 {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  background-color: #ffee58;
+  bottom: 0;
+  right: 0;
+  /* Position properties below this line */
+
+  /* Position properties above this line */
+}
+
+#parent2 {
+  background-color: #212121;
+  margin: auto;
+  width: 256px;
+  height: 256px;
+  /* position: relative; */
+  /* Position properties below this line */
+
+  /* Position properties above this line */
+}
+
+#child-4 {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  background-color: #ff8a80;
+  right: 50%;
+  /* Position properties below this line */
+
+  /* Position properties above this line */
+}
+
+#child-5 {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  background-color: #69f0ae;
+  left: 50%;
+  /* Position properties below this line */
+
+  /* Position properties above this line */
+}
+
+#child-6 {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  background-color: #ffee58;
+
+  /* Position properties below this line */
+
+  /* Position properties above this line */
+}
+
+#parent3 {
+  background-color: #212121;
+  margin: auto;
+  width: 256px;
+  height: 256px;
+  position: relative;
+  /* Position properties below this line */
+
+  /* Position properties above this line */
+}
+
+#child-7 {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  background-color: #ff8a80;
+  bottom: 12rem;
+  /* Position properties below this line */
+
+  /* Position properties above this line */
+}
+
+#child-8 {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  background-color: #69f0ae;
+  left: 2rem;
+  /* Position properties below this line */
+
+  /* Position properties above this line */
+}
+
+#child-9 {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  background-color: #ffee58;
+  /* Position properties below this line */
+
+  /* Position properties above this line */
+}
+
+#parent4 {
+  background-color: #212121;
+  margin: auto;
+  width: 256px;
+  height: 256px;
+  position: relative;
+  /* Position properties below this line */
+
+  /* Position properties above this line */
+}
+
+#child-10 {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  background-color: #ff8a80;
+  /* Position properties below this line */
+
+  /* Position properties above this line */
+}
+
+#child-11 {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  background-color: #69f0ae;
+  bottom: 12rem;
+  /* Position properties below this line */
+
+  /* Position properties above this line */
+}
+
+#child-12 {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  background-color: #ffee58;
+  bottom: 10rem;
+  /* Position properties below this line */
+
+  /* Position properties above this line */
+}
