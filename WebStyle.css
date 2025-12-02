@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.nav-bar {
+  background: #f8f8f8;
+  padding: 1rem;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: navy;
+  height: 40px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: navy;
+}
+
+.main-image {
+  background-image: url("https://t4.ftcdn.net/jpg/12/04/07/61/360_F_1204076176_tsPbjcrq19EduKpeyfqaHVmuZpioNGZD.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 5rem;
+}
+
+.main-input {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  width: 250px;
+}
+.h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.image-wrapper {
+  position: relative;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: 250px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.text {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.text h5,
+.text p {
+  margin: 0;
+}
+
+footer {
+  background: #f8f8f8;
+  text-align: center;
+  padding: 2rem;
+}
